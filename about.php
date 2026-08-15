@@ -1,0 +1,5 @@
+<?php $pageTitle='About | Shubhransu Sekhar'; include 'includes/header.php'; ?>
+<section class="page-hero about-hero reveal"><p class="eyebrow">01 / ABOUT</p><h1>CURIOUS<br>BY <em>DEFAULT.</em></h1><p>Designer, developer and perpetual explorer. I enjoy shaping digital ideas into clear, human experiences — and learning from every discipline I cross paths with.</p></section>
+<section class="about-grid reveal"><p class="section-no">A WAY OF THINKING</p><div><h2>More than one<br>way to <em>make.</em></h2><p>I work where visual clarity meets the logic of the web. That same curiosity follows me into games, writing, travelling and photography — each one a different lens for noticing detail, structure and story.</p></div></section>
+<section class="interests reveal"><p class="section-no">INTERESTS / 06</p><div class="interest-words"><span>DEVELOPER</span><span>DESIGNER</span><span>GAMER</span><span>WRITER</span><span>TRAVELLER</span><span>PHOTOGRAPHY</span></div></section>
+<?php include 'includes/footer.php'; ?>

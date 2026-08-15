@@ -1,0 +1,4 @@
+<?php $pageTitle='Education | Shubhransu Sekhar'; include 'includes/header.php'; $education=[['2027','MCA — 2nd Semester (Continuing)','RCM, Bhubaneswar','8.39 SGPA — 1st Semester'],['2024','B.Sc — Chemistry','Utkal University, Bhubaneswar','7.2 CGPA'],['2021','HSC — CBSE','Demonstration Multipurpose, RIE, BBSR','74.2%'],['2019','SSC — CBSE','Demonstration Multipurpose, RIE, BBSR','84.8%']]; ?>
+<section class="page-hero compact reveal"><p class="eyebrow">04 / EDUCATION</p><h1>THE <em>FOUNDATION.</em></h1><p>A continuing path shaped by curiosity, study and making.</p></section>
+<section class="timeline reveal"><?php foreach($education as $item): ?><article><time><?= $item[0] ?></time><div class="timeline-dot"></div><div><h2><?= $item[1] ?></h2><p><?= $item[2] ?></p><strong><?= $item[3] ?></strong></div></article><?php endforeach; ?></section>
+<?php include 'includes/footer.php'; ?>
